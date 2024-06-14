@@ -12,7 +12,7 @@ Keen interest and passion in Machine Learning, NLP, and AI technology. Hands-on 
 - B.S., Economics & Business | The University of Washington (_June 2023_)
 
 ## Code Notebooks
-#### _(Important Note: this portfolio consists of both real code and pseudo-code of projects I conducted during work for data & company privacy.)_
+#### _(Important Note: for the purpose of data & company privacy, the projects below are modified to contain some pseudo-code, but the workflows and logic are the same.)_
 
 ### **"LLM_with_context.ipynb"**
 This notebook aims to prompt LLM to generate responses to the user's/leader's queries based on all the previous conversation contexts. It applies prompt engineering to test the effectiveness of a specific prompt tip version for the LLM.
