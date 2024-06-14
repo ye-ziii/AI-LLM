@@ -11,23 +11,20 @@ Keen interest and passion in Machine Learning, NLP, and AI technology. Hands-on 
 - M.S., Applied Data Science	| The University of Chicago (_December 2024_)	 			        		
 - B.S., Economics & Business | The University of Washington (_June 2023_)
 
-#### _Important Note: this portfolio consists of pseudo code versions of projects I conducted during work for data & company privacy._
+## Code Notebooks
+#### _(Important Note: this portfolio consists of both real code and pseudo-code of projects I conducted during work for data & company privacy.)_
 
-### Project 1: 
- 
+### **"LLM_with_context.ipynb"**
+This notebook aims to prompt LLM to generate responses to the user's/leader's queries based on all the previous conversation contexts. It applies prompt engineering to test the effectiveness of a specific prompt tip version for the LLM.
 
-**NLP Techniques Used:**  
+### **"LLM_without_context.ipynb"**
+This notebook aims to prompt LLM to generate responses to the user's/leader's queries WITHOUT providing the previous conversation contexts. It applies prompt engineering to test the effectiveness of a specific prompt tip version for the LLM.
 
-**Files:**
+### **"BLEU_evaluation.ipynb"**
+This notebook evaluates the LLM response by comparing its similarity to the ground truth response(human coach response). Specifically, it uses the BLEU score metric.
 
+### **"GPT4_Evaluation.ipynb"**
+This notebook uses GPT4 as the LLM evaluator to evaluate different LLM responses against the ground truth response(human coach response) following a series of evaluation metrics. It gives the preference and corresponding reason. It helps automate the evaluation process and reduce human manual evaluation.
 
-### Project 2: Topic Modeling Analysis
-
-
-**Files:**
-
-
-### Project 3: Name Entity Recognition Analysis
-
-
-**Files:**
+### **"chat_loop_prompt_testing.ipynb"**
+This notebook creates an interactive chat loop for users to interact with the LLM leadership coach to test its performance against certain standards, assess the effectiveness of the prompt tips, etc.
